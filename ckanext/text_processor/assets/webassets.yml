@@ -1,0 +1,14 @@
+# text_processor-js:
+#   filter: rjsmin
+#   output: ckanext-text_processor/%(version)s-text_processor.js
+#   contents:
+#     - js/text_processor.js
+#   extra:
+#     preload:
+#       - base/main
+
+# text_processor-css:
+#   filter: cssrewrite
+#   output: ckanext-text_processor/%(version)s-text_processor.css
+#   contents:
+#     - css/text_processor.css
